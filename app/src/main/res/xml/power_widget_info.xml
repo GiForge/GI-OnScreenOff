@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="60dp"
+    android:minHeight="60dp"
+    android:targetCellWidth="1"
+    android:targetCellHeight="1"
+    android:maxResizeWidth="160dp"
+    android:maxResizeHeight="160dp"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/widget_power_single"
+    android:previewImage="@drawable/img_power_off_btn"
+    android:description="@string/widget_btn_screen_off_desc"
+    android:widgetCategory="home_screen" />

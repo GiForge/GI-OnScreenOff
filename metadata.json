@@ -1,0 +1,6 @@
+{
+  "name": "GI-OnScreenOff",
+  "description": "Widget a lampadina per attivare/disattivare lo schermo sempre attivo e pulsante per spegnere immediatamente lo schermo con un tocco.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

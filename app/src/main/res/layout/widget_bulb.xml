@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bulb_widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@drawable/widget_card_bg_off"
+    android:padding="6dp">
+
+    <!-- PULSANTE 1: LAMPADINA (Schermo Sempre Attivo ON/OFF) -->
+    <LinearLayout
+        android:id="@+id/bulb_toggle_area"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/widget_btn_gold_bg"
+        android:layout_marginEnd="4dp"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/widget_bulb_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/widget_name"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_bulb_off" />
+
+        <TextView
+            android:id="@+id/widget_status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/screen_awake_inactive"
+            android:textColor="#FFB0B8C4"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_sub_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/tap_to_toggle"
+            android:textColor="#8899A6B2"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <!-- PULSANTE 2: SPEGNI SCHERMO SUBITO (Power Off Button) -->
+    <LinearLayout
+        android:id="@+id/btn_screen_off_area"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/widget_btn_red_bg"
+        android:layout_marginStart="4dp"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/widget_power_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/widget_btn_screen_off"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_power_off_btn" />
+
+        <TextView
+            android:id="@+id/widget_power_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/widget_btn_screen_off_short"
+            android:textColor="#FFFFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_power_sub_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Schermo"
+            android:textColor="#DDFFCDD2"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+</LinearLayout>

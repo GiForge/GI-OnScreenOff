@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/power_single_widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/widget_btn_red_bg"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/power_single_icon"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:contentDescription="@string/widget_btn_screen_off"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_power_off_btn" />
+
+    <TextView
+        android:id="@+id/power_single_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="SPEGNI"
+        android:textColor="#FFFFFFFF"
+        android:textSize="11sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schermo"
+        android:textColor="#DDFFCDD2"
+        android:textSize="9sp" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GI-OnScreenOff</string>
+    <string name="widget_name">Lampadina Schermo Attivo</string>
+    <string name="widget_description">Tocca la lampadina per mantenere lo schermo sempre acceso, oppure il pulsante di spegnimento rapido per spegnere subito il display.</string>
+    <string name="screen_awake_active">Schermo sempre attivo</string>
+    <string name="screen_awake_inactive">Timeout normale</string>
+    <string name="tap_to_toggle">Tocca lampadina</string>
+    <string name="widget_btn_screen_off">Spegni Schermo</string>
+    <string name="widget_btn_screen_off_short">Spegni</string>
+    <string name="widget_btn_screen_off_desc">Spegne e blocca immediatamente il display con 1 tocco</string>
+    <string name="accessibility_service_label">GI-OnScreenOff - Spegnimento Display</string>
+    <string name="accessibility_service_desc">Consente al widget di spegnere e bloccare istantaneamente il display quando premi il pulsante di spegnimento.</string>
+    <string name="device_admin_label">GI-OnScreenOff Blocco Schermo</string>
+    <string name="device_admin_desc">Autorizzazione per consentire lo spegnimento immediato del display tramite il widget.</string>
+    <string name="notification_channel_name">Stato Schermo Attivo</string>
+    <string name="notification_channel_desc">Mostra la notifica persistente quando lo schermo è forzato attivo</string>
+    <string name="notification_title_active">💡 Schermo Sempre Attivo</string>
+    <string name="notification_text_active">Lo schermo rimarrà acceso finché non lo spegni.</string>
+    <string name="notification_action_turn_off">Spegni</string>
+    <string name="tile_label">Schermo Attivo</string>
+</resources>
